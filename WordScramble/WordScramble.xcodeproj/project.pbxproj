@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A43F2E4123F3F7B000B70C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F2E4023F3F7B000B70C48 /* AppDelegate.swift */; };
 		A43F2E4323F3F7B000B70C48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F2E4223F3F7B000B70C48 /* SceneDelegate.swift */; };
-		A43F2E4523F3F7B000B70C48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F2E4423F3F7B000B70C48 /* ViewController.swift */; };
+		A43F2E4523F3F7B000B70C48 /* WordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43F2E4423F3F7B000B70C48 /* WordsTableViewController.swift */; };
 		A43F2E4823F3F7B000B70C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F2E4623F3F7B000B70C48 /* Main.storyboard */; };
 		A43F2E4A23F3F7B200B70C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43F2E4923F3F7B200B70C48 /* Assets.xcassets */; };
 		A43F2E4D23F3F7B200B70C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43F2E4B23F3F7B200B70C48 /* LaunchScreen.storyboard */; };
+		A43F2E5523F419D500B70C48 /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = A43F2E5423F419D500B70C48 /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A43F2E3D23F3F7B000B70C48 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43F2E4023F3F7B000B70C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A43F2E4223F3F7B000B70C48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A43F2E4423F3F7B000B70C48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A43F2E4423F3F7B000B70C48 /* WordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableViewController.swift; sourceTree = "<group>"; };
 		A43F2E4723F3F7B000B70C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A43F2E4923F3F7B200B70C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A43F2E4C23F3F7B200B70C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A43F2E4E23F3F7B200B70C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43F2E5423F419D500B70C48 /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				A43F2E4023F3F7B000B70C48 /* AppDelegate.swift */,
 				A43F2E4223F3F7B000B70C48 /* SceneDelegate.swift */,
-				A43F2E4423F3F7B000B70C48 /* ViewController.swift */,
+				A43F2E4423F3F7B000B70C48 /* WordsTableViewController.swift */,
 				A43F2E4623F3F7B000B70C48 /* Main.storyboard */,
 				A43F2E4923F3F7B200B70C48 /* Assets.xcassets */,
 				A43F2E4B23F3F7B200B70C48 /* LaunchScreen.storyboard */,
 				A43F2E4E23F3F7B200B70C48 /* Info.plist */,
+				A43F2E5423F419D500B70C48 /* start.txt */,
 			);
 			path = WordScramble;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43F2E4D23F3F7B200B70C48 /* LaunchScreen.storyboard in Resources */,
+				A43F2E5523F419D500B70C48 /* start.txt in Resources */,
 				A43F2E4A23F3F7B200B70C48 /* Assets.xcassets in Resources */,
 				A43F2E4823F3F7B000B70C48 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43F2E4523F3F7B000B70C48 /* ViewController.swift in Sources */,
+				A43F2E4523F3F7B000B70C48 /* WordsTableViewController.swift in Sources */,
 				A43F2E4123F3F7B000B70C48 /* AppDelegate.swift in Sources */,
 				A43F2E4323F3F7B000B70C48 /* SceneDelegate.swift in Sources */,
 			);
